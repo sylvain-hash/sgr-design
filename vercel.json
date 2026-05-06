@@ -1,7 +1,7 @@
 {
   "buildCommand": "npm install --legacy-peer-deps && npx vite build",
   "outputDirectory": "dist/public",
-  "framework": "vite",
+  "framework": null,
   "headers": [
     {
       "source": "/(.*)",
@@ -9,15 +9,6 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600, s-maxage=3600"
-        }
-      ]
-    },
-    {
-      "source": "/index.html",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, s-maxage=3600, must-revalidate"
         }
       ]
     }
