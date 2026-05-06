@@ -1,11 +1,7 @@
 {
-  "buildCommand": "pnpm build",
-  "outputDirectory": "dist",
+  "buildCommand": "pnpm install && pnpm vite build",
+  "outputDirectory": "dist/public",
   "framework": "vite",
-  "env": {
-    "VITE_APP_TITLE": "@SGR Design Ltd.",
-    "VITE_APP_LOGO": "@SGR Design Ltd. | Residential Design"
-  },
   "headers": [
     {
       "source": "/(.*)",
