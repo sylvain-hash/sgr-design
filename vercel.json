@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm install --no-frozen-lockfile && pnpm vite build",
+  "buildCommand": "npm install --legacy-peer-deps && npx vite build",
   "outputDirectory": "dist/public",
   "framework": "vite",
   "headers": [
